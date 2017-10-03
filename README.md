@@ -12,8 +12,8 @@ The code running on the server is automatically refreshed upon a successful comm
 
 Python is required to run this application.
 ```python
-pip install -r requirements.txt
-python main.py
+pip3 install -r requirements.txt
+python3 main.py
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
