@@ -1,5 +1,6 @@
 import random
 from flask import Flask, redirect
+
 app = Flask(__name__)
 
 # Note: http:// or https:// must be the prefix for proper redirection
@@ -14,3 +15,5 @@ def index():
     website = random.choice(websites)
     return redirect(website)
 
+if __name__ == "__main__":
+    app.run()
